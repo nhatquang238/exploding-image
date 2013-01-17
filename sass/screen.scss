@@ -1,0 +1,23 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+#logo {
+	width: 418px;
+	height: 306px;
+	display: block;
+	text-indent: -10000px;
+	background: url(../img/badass.png) no-repeat;
+	z-index: 2;
+}
+
+#logo span {
+	float: left;
+	display: block;
+	background: url(../img/badass.png) no-repeat;
+}
+
+.clear {clear: both;}
